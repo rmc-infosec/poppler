@@ -1,0 +1,12 @@
+homepage: "https://poppler.freedesktop.org/"
+main_repo: "https://gitlab.freedesktop.org/poppler/poppler.git"
+language: c++
+primary_contact: "poppler_maintainer@example.com"
+auto_ccs:
+  - "security@example.com"
+sanitizers:
+  - address
+  - undefined
+  - memory
+fuzzing_engines:
+  - libfuzzer
