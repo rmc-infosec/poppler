@@ -44,7 +44,7 @@ class JBIG2MMRDecoder;
 
 //------------------------------------------------------------------------
 
-class JBIG2Stream : public FilterStream
+class POPPLER_PRIVATE_EXPORT JBIG2Stream : public FilterStream
 {
 public:
     JBIG2Stream(Stream *strA, Object &&globalsStreamA, Object *globalsStreamRefA);
